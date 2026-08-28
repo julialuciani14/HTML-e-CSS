@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f3ef;
+  margin: 0;
+  padding: 0;
+}
+
+.card-livro {
+  width: 260px;
+  background-color: #fffaf0;
+  border: 2px solid #8b4513;
+  text-align: center;
+
+  margin-top: 50px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  margin-left: 120px;
+}
+
+.icone {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.card-livro h2 {
+  color: #5c2c0c;
+  margin-bottom: 12px;
+}
+
+.card-livro p {
+  color: #4a4a4a;
+  font-size: 14px;
+
+}
+.img {
+    width: 0;
+    position: absolute;
+    top: 0px;
+}
