@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    top: 0;
+}
+
+body{
+    background-image: url(img/pexels-technobulka-2908984.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cabecario{
+    background-color: #6b9b6b;
+    height: 150px;
+    border-radius: 10px;
+}
+
+h1{
+    padding-top: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    padding-bottom: 20px;
+    font-size: 40px;
+
+}
+
+.box{
+    display: flexbox;
+    justify-self: center;
+    margin-top: 100px;
+    width: 700px;
+    height: 800px;
+    border: 2px solid #006400;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #c9f1c9;
+    
+}
+
+.box p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+button{
+    width: 500px;
+    height: 50px;
+    border: 6px sodid #006400;
+    margin-bottom: 40px;
+    text-align: start;
+    border-radius: 10px;
+    background-color: #8FBC8F;
+    font-size: 18px;
+
+}
+ 
+.verde{
+    color: #457445;
+    text-align:start;
+    margin-left: 10px;
+    border-bottom: 2px solid #3CB371;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.escura{
+    background-color: #2E8B57;
+    width: 500px;
+    height: 50px;
+    border: 6px sodid #006400;
+    margin-bottom: 40px;
+    text-align: start;
+    border-radius: 10px;
+    font-weight: 700 ;
+}
+
+.frase{
+    padding-bottom: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
