@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0 ;
+}
+
+.sobre{
+    /* Tamanho de lagura da pagina*/
+    width: 98%; 
+    max-width: 800px;
+    /* Borda da tela*/
+    border: 1px solid rgb(14, 95, 161);
+    /* Centralizar página*/
+    margin: 40px auto;
+}
+
+.sobre h1{
+    color:rgb(27, 57, 231);
+    /* Espaçamento dentro do elemento*/
+    /*
+    padding-top:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+    /* Abreviando Padding*/
+    padding: 15px;
+    /* Centralizar texto*/
+    text-align: center;
+    /* Tamanho do texto*/
+    font-size: 40px;
+}
+
+.sobre p{
+    color: rgb(15, 114, 207);
+    padding:  0 15px ;
+     /* Tamanho do texto*/
+    font-size: 22px;
+    /* Espaçamento entre texto*/
+    line-height: 30px;
+}
+
+.sobre img{
+    /* Borda na imagem*/
+    border: 5px solid rgb(17, 45, 105);
+    /* Flutuar texto*/
+    float: left;
+    /* Espaçamento dentro do elemento*/
+    margin-right: 20px;
+    margin-left: 15px;
+}
